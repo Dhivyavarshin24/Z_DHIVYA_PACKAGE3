@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for Department & Employee RAP'
+define service ZSD_DEPT_DHIVYA {
+  expose ZC_DEPT_DHIVYA as Department;
+  expose ZC_EMP_DHIVYA  as Employee;
+}
